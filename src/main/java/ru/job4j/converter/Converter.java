@@ -51,9 +51,9 @@ public class Converter {
         boolean passed3 = expected3 == out3;
         System.out.println("140 rubles are 2. Test result : " + passed3);
 
-        System.out.println("140 rubles are " + euro + " euro.");
-        System.out.println("140 rubles are " + dollar + " dollar.");
+        System.out.println("140 rubles are " + euro + " euro");
+        System.out.println("140 rubles are " + dollar + " dollar");
         System.out.println("140 rubles are " + yuan + " yuan");
-        System.out.println("140 rubles are " + tugriki + " tugriki.");
+        System.out.println("140 rubles are " + tugriki + " tugriki");
     }
 }
