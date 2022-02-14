@@ -3,13 +3,8 @@ package ru.job4j.condition;
 public class TrgArea {
 
     public static double area(double a, double b, double c) {
-        double rsl = (a + b + c) / 2;
-        double rsl2 = rsl - a;
-        double rsl3 = rsl - b;
-        double rsl4 = rsl - c;
-        double rsl5 = rsl * rsl2 * rsl3 * rsl4;
 
-        return Math.sqrt(rsl5);
+        return Math.sqrt(((a + b + c) / 2 * ((a + b + c) / 2  - a) * ((a + b + c) / 2  - b) * ((a + b + c) / 2  - c)));
     }
 
     public static void main(String[] args) {
