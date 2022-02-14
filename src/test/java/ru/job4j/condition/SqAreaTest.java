@@ -3,7 +3,7 @@ package ru.job4j.condition;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class SqAreaTest {
+public class SqAreaTest  {
 
     @Test
     public void whenP6K2Square2() {
@@ -25,8 +25,8 @@ public class SqAreaTest {
 
     @Test
     public void whenP3K4Square0dot36() {
-        double expected = 0.36;
-        int p = 3;
+        double expected = 0.16;
+        int p = 2;
         double k = 4;
         double out = SqArea.square(p, k);
         Assert.assertEquals(expected, out, 0.01);
