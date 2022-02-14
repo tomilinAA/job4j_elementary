@@ -11,13 +11,13 @@ public class MathCalculator {
 
     }
 
-    public static double sumdifAndDiv(double first, double second) {
+    public static double sumDifAndDiv(double first, double second) {
         return dif(first, second)
                 + div(first, second);
 
     }
 
-    public static double sumAndMultiplyandDivAndDif(double first, double second) {
+    public static double sumAndMultiplyAndDivAndDif(double first, double second) {
         return sum(first, second)
                 + multiply(first, second)
                 + dif(first, second)
@@ -25,6 +25,6 @@ public class MathCalculator {
     }
 
     public static void main(String[] args) {
-        System.out.println("Результат расчета равен: " + sumAndMultiply(10, 20) + sumdifAndDiv(10, 10) + sumAndMultiplyandDivAndDif(10, 2));
+        System.out.println("Результат расчета равен: " + sumAndMultiply(10, 20) + sumDifAndDiv(10, 10) + sumAndMultiplyAndDivAndDif(10, 2));
     }
 }
