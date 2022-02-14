@@ -8,7 +8,7 @@ public class FitTest {
     @Test
     public void whenMan187Then87() {
         short in = 187;
-        double expected = 87;
+        double expected = 100.05;
         double out = Fit.manWeight(in);
         Assert.assertEquals(expected, out, 0.01);
     }
