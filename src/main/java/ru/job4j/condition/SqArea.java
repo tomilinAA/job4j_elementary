@@ -3,33 +3,33 @@ package ru.job4j.condition;
 public class SqArea {
 
         public static double square(double p, double k) {
-            double rsl = p / (2 * (k + 1));
-            double rsl2 = rsl * k;
-            double rsl3 = rsl2 * rsl;
-            return rsl3;
+            double h = p / (2 * (k + 1));
+            double l = h * k;
+            double s = l * h;
+            return s;
         }
 
         public static double square1(double p, double k) {
-        double rsl = p / (2 * (k + 1));
-        double rsl2 = rsl * k;
-        double rsl3 = rsl2 * rsl;
-        return rsl3;
+        double h = p / (2 * (k + 1));
+        double l = h * k;
+        double s = l * h;
+        return s;
 
         }
 
         public static double square2(double p, double k) {
-        double rsl = p / (2 * (k + 1));
-        double rsl2 = rsl * k;
-        double rsl3 = rsl2 * rsl;
-        return rsl3;
+        double h = p / (2 * (k + 1));
+        double l = h * k;
+        double s = l * h;
+        return s;
 
         }
 
         public static double square3(double p, double k) {
-        double rsl = p / (2 * (k + 1));
-        double rsl2 = rsl * k;
-        double rsl3 = rsl2 * rsl;
-        return rsl3;
+        double h = p / (2 * (k + 1));
+        double l = h * k;
+        double s = l * h;
+        return s;
         }
 
         public static void main(String[] args) {
