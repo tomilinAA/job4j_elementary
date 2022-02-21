@@ -19,7 +19,7 @@ public class SwitchArrayTest {
     public void whenSwap1to3() {
         int[] input = {0, 1, 2, 3, 4};
         int source = 1;
-        int dest = input.length - 1;
+        int dest = 3;
         int[] result = SwitchArray.swap(input, source, dest);
         int[] expected = {0, 3, 2, 1, 4};
         Assert.assertArrayEquals(expected, result);
